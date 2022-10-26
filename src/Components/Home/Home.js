@@ -49,7 +49,7 @@ function Home() {
             image="/images/kickass.png"
             alt="kickass"
             height="560px"
-            sx={{objectFit="contain"}}
+            sx={{objectFit:"contain"}}
         />
    
   </Grid>
