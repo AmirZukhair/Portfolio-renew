@@ -2,3 +2,6 @@
 body{
     background-color: #F4F4F8;
 }
+.kick-ass-image{
+ object-fit: contain;
+}
