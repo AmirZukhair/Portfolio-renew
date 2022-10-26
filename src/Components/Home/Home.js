@@ -49,7 +49,7 @@ function Home() {
             image="/images/kickass.png"
             alt="kickass"
             height="560px"
-className="kick-ass-image"
+            sx={{objectFit="contain"}}
         />
    
   </Grid>
@@ -75,7 +75,7 @@ web developer.
    
    </Container>
    <Container maxWidth="xl">
-   <StyledDivider sx={{marginTop: -3.5, paddingTop: 0}}/> 
+   <StyledDivider sx={{marginTop: -2.5, paddingTop: 0}}/> 
    </Container>
 
 
