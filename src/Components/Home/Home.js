@@ -49,6 +49,7 @@ function Home() {
             image="/images/kickass.png"
             alt="kickass"
             height="560px"
+className="kick-ass-image"
         />
    
   </Grid>
