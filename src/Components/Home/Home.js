@@ -46,10 +46,10 @@ function Home() {
   <Grid item md={6}>
   <CardMedia
             component="img"
-           
+            sx={{objectFit: "contain"}}
             image="/images/kickass.png"
             alt="kickass"
-            
+            height="560px"
         />
    
   </Grid>
