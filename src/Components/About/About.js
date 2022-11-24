@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import ReactGA from 'react-ga'
-import { Container, Typography, Link, Stack, Divider,Grid } from '@mui/material';
+import { Container, Typography,  Stack,Grid } from '@mui/material';
 
 function About() {
 
