@@ -8,6 +8,11 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import ReactGA from 'react-ga'
+ReactGA.initialize('G-5S1DRMNP03')
+
+
+
 
 function App() {
   return (
