@@ -1,11 +1,9 @@
 import React, { useEffect } from "react";
-import ReactGA from 'react-ga'
 import { Container, Typography,  Stack,Grid } from '@mui/material';
 
 function About() {
 
    useEffect(() => {
-      ReactGA.pageview(window.location.pathname);
       window.scrollTo(0, 0)
     },[])
 

@@ -1,3 +1,5 @@
+import React, { useEffect } from "react";
+import ReactGA from 'react-ga'
 import Header from './Components/Header/Header'
 import './App.css';
 import About from './Components/About/About';
@@ -8,13 +10,12 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import ReactGA from 'react-ga'
 ReactGA.initialize('G-5S1DRMNP03')
 
-
-
-
 function App() {
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  },[])
   return (
 
     <Router>
