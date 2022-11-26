@@ -10,7 +10,6 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import { withRouter } from "react-router-dom";
 ReactGA.initialize('G-5S1DRMNP03')
 
 function App() {
@@ -34,4 +33,4 @@ function App() {
   );
 }
 
-export default withRouter(App) ;
+export default App;
