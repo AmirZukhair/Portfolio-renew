@@ -10,11 +10,12 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 ReactGA.initialize('G-5S1DRMNP03')
 
 function App() {
   useEffect(() => {
-    ReactGA.pageview(window.location.pathname);
+    ReactGA.pageview(window.location.pathname + window.location.search);
   },[])
   return (
 
@@ -33,4 +34,4 @@ function App() {
   );
 }
 
-export default App;
+export default withRouter(App) ;
