@@ -67,7 +67,7 @@ web developer.
            component="img"
            image="/images/author.jpg"
            alt="author"
-
+            
            sx={{objectFit:"contain"}}
        />
 
