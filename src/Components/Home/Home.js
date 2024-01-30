@@ -43,21 +43,12 @@ function Home() {
     <div>
        <Container maxWidth="lg" >
    <StyledGrid container   spacing={2} sx={{marginTop: 10, justifyContent: 'center'}}>
-  <Grid item md={6}>
-  <CardMedia
-            component="img"
-            image="/images/kickass.png"
-            alt="kickass"
-            height="560px"
-            sx={{objectFit:"contain"}}
-        />
-   
-  </Grid>
-  <Grid item md={6} sx={{alignItems: 'center', display: 'flex'}}>
-    <div>
-    <Typography variant="caption" sx={{color: '#2AB7CA', fontWeight: 700, fontSize: 70}}>Hello!</Typography>
 
-<StyledTypography variant="body2"  >
+  <Grid item md={6} sx={{alignItems: 'center', display: 'flex'}} justifyContent="center" order={{ xs: 3, md: 2, }}>
+    <div>
+    <Typography variant="caption" sx={{color: '#101010', fontWeight: 700, fontSize: 70}}>Hello!</Typography>
+
+<StyledTypography variant="body2" sx={{color: '#404040'}} >
   
 I'm Amir,  <br></br>
 a fullstack <br></br>
@@ -70,13 +61,24 @@ web developer.
   
 
   </Grid>
+
+     <Grid item md={6} justifyContent="center" order={{ xs: 2, md: 3, }}>
+       <CardMedia
+           component="img"
+           image="/images/author.jpg"
+           alt="author"
+
+           sx={{objectFit:"contain"}}
+       />
+
+     </Grid>
+
+
 </StyledGrid>
 
    
    </Container>
-   <Container maxWidth="xl">
-   <StyledDivider sx={{marginTop: -2.5, paddingTop: 0}}/> 
-   </Container>
+
 
 
    

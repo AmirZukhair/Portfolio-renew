@@ -130,19 +130,16 @@ const handleCloseNavMenu = () => {
               <Link
                 to="/"
                 className="header__link"
-                style={{ "--data-color": "#FE4A49" } }
                 onClick={()=>{window.scrollTo(0, 0)}}
               >
                Home
               </Link>
-              <HashLink smooth to="/#work" className="header__link" style={{ "--data-color": "#FED766" } }>
+              <HashLink smooth to="/#work" className="header__link" >
               Work
               </HashLink>
               <Link
                 to="/about"
                 className="header__link"
-                style={{ "--data-color": "#2AB7CA" } }
-                
               >
                About
               </Link>

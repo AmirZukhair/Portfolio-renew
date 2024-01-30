@@ -2,16 +2,12 @@
     letter-spacing: 3px;
     font-size: 20px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: #000000;
     margin: 0 5px;
    
 }
 .header__link:hover{
-    text-decoration: underline;
-    color: var(--data-color);
-    
-    
-    
+    color: #404040;
 }
 .header__link-mob{
     text-decoration: none;

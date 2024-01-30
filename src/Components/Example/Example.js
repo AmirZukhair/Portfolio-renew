@@ -18,7 +18,7 @@ function Example(props) {
        </CardContent>
       
        <CardActions sx={{ display: "flex"}}>
-        <Link href={props.link} underline="none" target="_blank" variant='button' sx={{color: "rgba(0, 0, 0, 0.87)", "&:hover": {color: "rgba(0, 0, 0, 0.6)"}}}>
+        <Link href={props.link} underline="none" target="_blank" variant='button' sx={{color: "rgba(0, 0, 0, 0.87)", "&:hover": {color: "#404040"}}}>
             View project
         </Link>
       </CardActions>
