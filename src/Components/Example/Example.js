@@ -5,16 +5,20 @@ function Example(props) {
     return (
 <div>
 <Container maxWidth="lg">
-<Card sx={{ marginY: 10, background: "transparent", boxShadow: "none"}}>
+<Card sx={{ marginY: {xs: 5, md: 10}, background: "transparent", boxShadow: "none"}}>
         
-     <Box sx={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end"}}>
+     <Box  sx={{ display: "flex", justifyContent: {xs: "flex-end", sm: "space-between"} , alignItems: "flex-end", flexWrap: "wrap"}}>
         <CardContent >
         <Typography gutterBottom variant="h3" component="div" sx={{fontWeight: "700"}}>
         {props.title}
         </Typography>
         <Typography variant="body2" color="text.secondary"  sx={{fontWeight: "500"}}>
-        {props.subTitle}
+        {props.subTitle1}
         </Typography>
+
+            <Typography variant="body2" color="text.secondary"  sx={{fontWeight: "500"}}>
+                {props.subTitle2}
+            </Typography>
        </CardContent>
       
        <CardActions sx={{ display: "flex"}}>

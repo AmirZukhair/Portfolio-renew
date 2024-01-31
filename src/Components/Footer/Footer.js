@@ -8,7 +8,7 @@ const Footer = () => {
             <Stack direction="row"
                 divider={<Divider orientation="vertical" flexItem />}
                 spacing={2}
-                sx={{ marginBottom: 6, }}>
+                sx={{ marginBottom: 6, flexWrap: 'wrap'}}>
                 <Link href="https://www.facebook.com/profile.php?id=100009745516302" target="_blank" variant='button' underline="none" sx={{ color: "#808080", "&:hover": { color: "#404040" } }}>Facebook</Link>
                 <Link href="https://www.instagram.com/fvbh86/" variant='button' target="_blank" underline="none" sx={{ color: "#808080", "&:hover": { color: "#404040" } }}>Instagram</Link>
                 <Link href="mailto:amirzukhair@gmail.com" variant='button' underline="none" sx={{ color: "#808080", "&:hover": { color: "#404040" } }}>Email</Link>

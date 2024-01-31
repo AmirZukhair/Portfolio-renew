@@ -67,7 +67,7 @@ web developer.
            component="img"
            image="/images/author.jpg"
            alt="author"
-            
+
            sx={{objectFit:"contain"}}
        />
 
@@ -85,9 +85,12 @@ web developer.
    
    
   <div id="work">
-  <Example  src="/images/mobzik.png" title="Playside" subTitle="MOBILE GAMES＆APPS - WEBSITE" link="https://playside.ru/"/>
-  <Example   src="/images/surf.png" title="SURF" subTitle="SURF - WEBSITE" link="https://amirzukhair.github.io/website-surf/"/> 
-  <Example   src="/images/td-ural.png" title="ТД УРАЛ" subTitle="BUILDING MATERIALS - WEBSITE" link="https://tdural.com/"/>
+  <Example  src="/images/mobzik.png" title="Playside" subTitle1="PlaySide is a catalog of online applications with handy rating and search system."  subTitle2="To enhance PlaySide's website visits, We created new design and frameworks for their platform." link="https://playside.ru/"/>
+
+  <Example   src="/images/surf.png" title="SURF" subTitle1="SURF - WEBSITE - A great interactive and animated website designed using built-in CSS animations and external JavaScript libraries.
+" link="https://amirzukhair.github.io/website-surf/"/>
+  <Example   src="/images/td-ural.png" title="TD URAL" subTitle1="BUILDING MATERIALS - WEBSITE" subTitle2="This site was created and integrated with CMS so that the client could add products and change the content of the site through the admin panel.
+" link="https://tdural.com/"/>
   </div>
     </div>
   
