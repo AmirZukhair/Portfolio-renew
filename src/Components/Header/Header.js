@@ -50,7 +50,7 @@ const handleCloseNavMenu = () => {
   return (
 
     <HideOnScroll>
-    <AppBar  sx={{background: 'rgba(255,255,255,.87)', boxShadow: 'none', color: 'black'}}>
+    <AppBar  sx={{background: 'primary.main', boxShadow: 'none', color: 'secondary.main'}}>
      
       <Container maxWidth="xl">
       <Toolbar disableGutters>
@@ -70,7 +70,7 @@ const handleCloseNavMenu = () => {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherit',
+              color: 'secondary.main',
               textDecoration: 'none',
             }}
           >

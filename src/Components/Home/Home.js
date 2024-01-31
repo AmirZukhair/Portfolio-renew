@@ -46,9 +46,9 @@ function Home() {
 
   <Grid item md={6} sx={{alignItems: 'center', display: 'flex'}} justifyContent="center" order={{ xs: 3, md: 2, }}>
     <div>
-    <Typography variant="caption" sx={{color: '#101010', fontWeight: 700, fontSize: 70}}>Hello!</Typography>
+    <Typography variant="caption" sx={{color: 'secondary.main', fontWeight: 700, fontSize: 70}}>Hello!</Typography>
 
-<StyledTypography variant="body2" sx={{color: '#404040'}} >
+<StyledTypography variant="body2" sx={{color: 'secondary.main'}} >
   
 I'm Amir,  <br></br>
 a fullstack <br></br>
@@ -85,12 +85,12 @@ web developer.
    
    
   <div id="work">
-  <Example  src="/images/mobzik.png" title="Playside" subTitle1="PlaySide is a catalog of online applications with handy rating and search system."  subTitle2="To enhance PlaySide's website visits, We created new design and frameworks for their platform." link="https://playside.ru/"/>
+  <Example  src="/images/mobzik.png" title="Playside" subTitle1="PlaySide is a catalog of online applications with handy rating and search system."  subTitle2="To enhance PlaySide's website visits, We created new design and frameworks for their platform." link="https://playside.ru/" divider/>
 
   <Example   src="/images/surf.png" title="SURF" subTitle1="SURF - WEBSITE - A great interactive and animated website designed using built-in CSS animations and external JavaScript libraries.
-" link="https://amirzukhair.github.io/website-surf/"/>
+" link="https://amirzukhair.github.io/website-surf/" divider/>
   <Example   src="/images/td-ural.png" title="TD URAL" subTitle1="BUILDING MATERIALS - WEBSITE" subTitle2="This site was created and integrated with CMS so that the client could add products and change the content of the site through the admin panel.
-" link="https://tdural.com/"/>
+" link="https://tdural.com/" />
   </div>
     </div>
   

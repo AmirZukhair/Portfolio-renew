@@ -5,6 +5,7 @@ import './App.css';
 import About from './Components/About/About';
 import Home from './Components/Home/Home'
 import Footer from './Components/Footer/Footer'
+import {createTheme } from '@mui/material/styles';
 import {
   BrowserRouter as Router,
   Routes,
@@ -12,7 +13,21 @@ import {
 } from "react-router-dom";
 ReactGA.initialize('G-5S1DRMNP03')
 
+
+ export const theme = createTheme({
+     palette: {
+         primary: {
+             main: '#0D0D0D',
+         },
+         secondary: {
+             main: '#BFBFBF',
+             secondary: '#F20F0F',
+             dark: '#A60505',
+         },
+     },
+ })
 function App() {
+
   useEffect(() => {
     ReactGA.pageview(window.location.pathname + window.location.search);
   },[])
@@ -20,16 +35,13 @@ function App() {
 
     <Router>
      <Header/>
-     
-    
-
     <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
     </Routes>
     <Footer/>
-
     </Router>
+
   );
 }
 

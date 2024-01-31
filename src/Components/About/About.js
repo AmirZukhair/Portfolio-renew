@@ -13,10 +13,10 @@ function About() {
 
      <Grid item md={5}>
 
-  <Typography variant="caption" sx={{color: '#101010', fontWeight: 700, fontSize: 55, lineHeight: 1.4}}>
+  <Typography variant="caption" sx={{color: 'secondary.main', fontWeight: 700, fontSize: 55, lineHeight: 1.4}}>
      I'm Amir, a web developer.
   </Typography>
-  <Typography variant="body1" sx={{color: '#909090', fontSize: 24, lineHeight: 1.4}}>
+  <Typography variant="body1" sx={{color: 'secondary.main', fontSize: 24, lineHeight: 1.4}}>
    My experience of web developing is over 3.5 years.
    I usually make Responsive Web Site for clients.
    I also help making or update your OpenCart and Wordpress site too.
@@ -32,31 +32,31 @@ function About() {
 
   
   <Stack sx={{marginBottom: 3}}>
-  <Typography variant="caption" sx={{color: '#101010', fontWeight: 700, fontSize: 32, lineHeight: 1.4}}>
+  <Typography variant="caption" sx={{color: 'secondary.main', fontWeight: 700, fontSize: 32, lineHeight: 1.4}}>
      What I like
   </Typography>
-  <Typography variant="caption" sx={{color: '#909090',fontSize: 24, lineHeight: 1.7}}>
+  <Typography variant="caption" sx={{color: 'secondary.main',fontSize: 24, lineHeight: 1.7}}>
      Making Websites
   </Typography>
-  <Typography variant="caption" sx={{color: '#909090',fontSize: 24, lineHeight: 1.7}}>
+  <Typography variant="caption" sx={{color: 'secondary.main',fontSize: 24, lineHeight: 1.7}}>
     Animation
   </Typography>
-  <Typography variant="caption" sx={{color: '#909090',fontSize: 24, lineHeight: 1.7}}>
+  <Typography variant="caption" sx={{color: 'secondary.main',fontSize: 24, lineHeight: 1.7}}>
     Basketball
   </Typography>
   </Stack>
 
   <Stack>
-  <Typography variant="caption" sx={{color: '#101010', fontWeight: 700, fontSize: 32, lineHeight: 1.4}}>
+  <Typography variant="caption" sx={{color: 'secondary.main', fontWeight: 700, fontSize: 32, lineHeight: 1.4}}>
   What I'm learning
   </Typography>
-  <Typography variant="caption" sx={{color: '#909090',fontSize: 24, lineHeight: 1.7}}>
+  <Typography variant="caption" sx={{color: 'secondary.main',fontSize: 24, lineHeight: 1.7}}>
      Backend
   </Typography>
-  <Typography variant="caption" sx={{color: '#909090',fontSize: 24, lineHeight: 1.7}}>
+  <Typography variant="caption" sx={{color: 'secondary.main',fontSize: 24, lineHeight: 1.7}}>
     Figma
   </Typography>
-  <Typography variant="caption" sx={{color: '#909090',fontSize: 24, lineHeight: 1.7}}>
+  <Typography variant="caption" sx={{color: 'secondary.main',fontSize: 24, lineHeight: 1.7}}>
     日本語
   </Typography>
   </Stack>
@@ -71,7 +71,7 @@ function About() {
   <Grid container spacing={2} sx={{marginY: 5, justifyContent: 'space-between'}}>
     
   <Grid item md={4}>
-  <Typography variant="caption" sx={{color: '#101010', fontWeight: 700, fontSize: 35, lineHeight: 1.4}}>
+  <Typography variant="caption" sx={{color: 'secondary.main', fontWeight: 700, fontSize: 35, lineHeight: 1.4}}>
   Web Languages:
   </Typography>
      <ul className="skills-list">
@@ -89,7 +89,7 @@ function About() {
      </ul>
   </Grid>
   <Grid item md={4}>
-  <Typography variant="caption" sx={{color: '#101010', fontWeight: 700, fontSize: 35, lineHeight: 1.4}}>
+  <Typography variant="caption" sx={{color: 'secondary.main', fontWeight: 700, fontSize: 35, lineHeight: 1.4}}>
      CMS Skills:
   </Typography>
      
@@ -103,7 +103,7 @@ function About() {
 
   </Grid>
   <Grid item md={4}>
-  <Typography variant="caption" sx={{color: '#101010', fontWeight: 700, fontSize: 35, lineHeight: 1.4}}>
+  <Typography variant="caption" sx={{color: 'secondary.main', fontWeight: 700, fontSize: 35, lineHeight: 1.4}}>
      Other Skills:
   </Typography>
     

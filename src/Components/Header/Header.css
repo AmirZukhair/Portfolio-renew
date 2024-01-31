@@ -2,13 +2,13 @@
     letter-spacing: 3px;
     font-size: 20px;
     text-decoration: none;
-    color: #000000;
+    color: #BFBFBF;
     margin: 0 5px;
    
 }
-.header__link:hover{
-    color: #404040;
-}
+/*.header__link:hover{*/
+/*    color: #A60505;*/
+/*}*/
 .header__link-mob{
     text-decoration: none;
     color: rgb(0, 0, 0);
