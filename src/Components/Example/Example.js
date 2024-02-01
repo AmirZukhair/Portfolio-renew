@@ -13,11 +13,11 @@ function Example(props) {
      <Box order={{xs: 3, md: 2}}  sx={{ paddingBottom: "20px", display: "flex", justifyContent: {xs: "flex-end", sm: "space-between"} , alignItems: "center", flexWrap: "wrap"}}>
         <CardContent sx={{padding: 0, paddingBottom: {xs: 2, md: 0} }} >
 
-        <Typography variant="body2" color="secondary.main"  sx={{fontWeight: "500"}}>
+        <Typography variant="body1" color="secondary.main"  sx={{fontWeight: "500"}}>
         {props.subTitle1}
         </Typography>
 
-            <Typography variant="body2" color="secondary.main"  sx={{fontWeight: "500"}}>
+            <Typography variant="body1" color="secondary.main"  sx={{fontWeight: "500"}}>
                 {props.subTitle2}
             </Typography>
        </CardContent>

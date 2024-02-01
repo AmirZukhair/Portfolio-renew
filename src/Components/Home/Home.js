@@ -46,7 +46,7 @@ function Home() {
 
   <Grid item md={6} sx={{alignItems: 'center', display: 'flex'}} justifyContent="center" order={{ xs: 3, md: 2, }}>
     <div>
-    <Typography variant="caption" sx={{color: 'secondary.main', fontWeight: 700, fontSize: 70}}>Hello!</Typography>
+    <Typography variant="caption" sx={{color: 'secondary.dark', fontWeight: 700, fontSize: 70}}>Hello!</Typography>
 
 <StyledTypography variant="body2" sx={{color: 'secondary.main'}} >
   
@@ -87,11 +87,11 @@ web developer.
    
    
   <div >
-    <Example   src="/images/surf.png" title="SURF" subTitle1="SURF - WEBSITE - A great interactive and animated website designed using built-in CSS animations and external JavaScript libraries.
-" link="https://amirzukhair.github.io/website-surf/" divider/>
-  <Example  src="/images/mobzik.png" title="Playside" subTitle1="PlaySide is a catalog of online applications with handy rating and search system."  subTitle2="To enhance PlaySide's website visits, We created new design and frameworks for their platform." link="https://playside.ru/" divider/>
-  <Example   src="/images/td-ural.png" title="TD URAL" subTitle1="BUILDING MATERIALS - WEBSITE" subTitle2="This site was created and integrated with CMS so that the client could add products and change the content of the site through the admin panel.
-" link="https://tdural.com/" />
+    <Example   src="/images/surf.png" title="SURF" subTitle1="SURF - ウェブサイト - コーディングを担当 CSS アニメーションと外部 JavaScript ライブラリを使用。" subTitle2="上質なサイトになるようアニメーションにこだわりました。" link="https://amirzukhair.github.io/website-surf/" divider/>
+  <Example  src="/images/mobzik.png" title="Playside" subTitle1="PlaySide - ウェブサイト - コーディングを担当"  subTitle2="アプリの評価機能や検索システムを備えたオンラインアプリケーションのカタログサイトです。" link="https://playside.ru/" divider/>
+  <Example   src="/images/td-ural.png" title="TD URAL" subTitle1="建材会社 - ウェブサイト - コーディングを担当" subTitle2="クライアントが管理パネルから製品を追加したり、サイトのコンテンツを変更したりできるようにCMSの設定を行いました。" link="https://tdural.com/" />
+    {/*<Example   src="/images/zebra.png" title="Zebra" subTitle1="建材会社 - ウェブサイト - コーディングを担当" subTitle2="クライアントが管理パネルから製品を追加したり、サイトのコンテンツを変更したりできるようにCMSの設定を行いました。" link="https://amirzukhair.github.io/Zebra-Lending-website/" divider/>*/}
+    {/*<Example   src="/images/school.png" title="School 28" subTitle1="建材会社 - ウェブサイト - コーディングを担当" subTitle2="クライアントが管理パネルから製品を追加したり、サイトのコンテンツを変更したりできるようにCMSの設定を行いました。" link="https://tdural.com/" />*/}
   </div>
     </div>
   
