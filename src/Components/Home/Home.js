@@ -91,7 +91,7 @@ web developer.
   <Example  src="/images/mobzik.png" title="Playside" subTitle1="PlaySide - ウェブサイト - コーディングを担当"  subTitle2="アプリの評価機能や検索システムを備えたオンラインアプリケーションのカタログサイトです。" subTitle3="アクセスを強化するために、プラットフォーム用の新しいデザインとフレームワークを作成しました。" link="https://playside.ru/" divider/>
   <Example   src="/images/td-ural.png" title="TD URAL" subTitle1="建材会社 - ウェブサイト - コーディングを担当" subTitle2="クライアントが管理パネルから製品を追加したり、サイトのコンテンツを変更したりできるようにCMSの設定を行いました。" link="https://tdural.com/" divider/>
    {/*<Example   src="/images/zebra.png" title="Zebra" subTitle1="minimalist ecommerce website" subTitle2="" link="https://amirzukhair.github.io/Zebra-Lending-website/" divider/>*/}
-    <Example   src="/images/school.png" title="School 28" subTitle1="School portal for students and teachers. Made for a school in my hometown. " subTitle2="GSAP used for interactive animation. DLE used as CMS." link="https://28.te.ua/" />
+    <Example   src="/images/school.png" title="School 28" subTitle1="学生と教師のための学校ポータル。故郷の学校のために作りました。" subTitle2="インタラクティブ アニメーションに使用される GSAP。 DLEをCMSとして使用しました。" link="https://28.te.ua/" />
   </div>
     </div>
   

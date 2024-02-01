@@ -99,46 +99,7 @@ const handleCloseNavMenu = () => {
             
           </Box>
        
-          {/*<Box sx={{ flexGrow: 0, display: { xs: 'flex', md: 'none' } }}>*/}
-          {/*<IconButton*/}
-          {/*    size="large"*/}
-          {/*    aria-label="account of current user"*/}
-          {/*    aria-controls="menu-appbar"*/}
-          {/*    aria-haspopup="true"*/}
-          {/*    onClick={handleOpenNavMenu}*/}
-          {/*    color="inherit"*/}
-          {/*  >*/}
-          {/*  <MenuIcon />*/}
-          {/*  </IconButton>*/}
 
-          {/*  <Menu*/}
-          {/*    id="menu-appbar"*/}
-          {/*    keepMounted*/}
-
-          {/*    anchorEl={anchorElNav}*/}
-          {/*    */}
-          {/*    open={Boolean(anchorElNav)}*/}
-          {/*    onClose={handleCloseNavMenu}*/}
-          {/*    sx={{*/}
-          {/*      display: { xs: 'block', md: 'none' },*/}
-          {/*    }}*/}
-          {/*  >*/}
-          {/*   */}
-          {/*      <MenuItem  onClick={handleCloseNavMenu}>*/}
-          {/*        <Link className="header__link-mob"  to="/" textAlign="center" onClick={()=>{window.scrollTo(0, 0)}}>Home</Link>*/}
-          {/*      </MenuItem>*/}
-          {/*      <MenuItem onClick={handleCloseNavMenu}>*/}
-          {/*        <HashLink smooth to="/#work" className="header__link-mob" textAlign="center">*/}
-          {/*          Work*/}
-          {/*       </HashLink>*/}
-          {/*      </MenuItem>*/}
-          {/*      <MenuItem  onClick={handleCloseNavMenu}>*/}
-          {/*        <Link className="header__link-mob" to="/about" textAlign="center">About</Link>*/}
-          {/*      </MenuItem>*/}
-          {/*   */}
-          {/*  </Menu>*/}
-
-          {/*  </Box>*/}
          
          
         
