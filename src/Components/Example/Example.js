@@ -20,6 +20,10 @@ function Example(props) {
             <Typography variant="body1" color="secondary.main"  sx={{fontWeight: "500"}}>
                 {props.subTitle2}
             </Typography>
+
+            {props.subTitle3 &&  <Typography variant="body1" color="secondary.main"  sx={{fontWeight: "500"}}>
+                {props.subTitle3}
+            </Typography>}
        </CardContent>
 
        <CardActions sx={{ display: "flex"}}>
