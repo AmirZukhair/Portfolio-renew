@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {Grid, Container,Divider,Typography,CardMedia} from '@mui/material';
+import {Grid, Container,Divider,Typography,CardMedia,Box} from '@mui/material';
 import Example from "../Example/Example.js";
 import { styled } from '@mui/material/styles';
 
@@ -81,14 +81,15 @@ web developer.
 
 
 
+   <Box id="work" sx={{ textAlign: 'center', paddingTop: 10, paddingBottom: 5, marginTop: 1}}>
+     <Typography variant="caption" sx={{color: 'secondary.secondary', fontWeight: 700, fontSize: 70}}>Work</Typography>
+   </Box>
    
    
-   
-  <div id="work">
-  <Example  src="/images/mobzik.png" title="Playside" subTitle1="PlaySide is a catalog of online applications with handy rating and search system."  subTitle2="To enhance PlaySide's website visits, We created new design and frameworks for their platform." link="https://playside.ru/" divider/>
-
-  <Example   src="/images/surf.png" title="SURF" subTitle1="SURF - WEBSITE - A great interactive and animated website designed using built-in CSS animations and external JavaScript libraries.
+  <div >
+    <Example   src="/images/surf.png" title="SURF" subTitle1="SURF - WEBSITE - A great interactive and animated website designed using built-in CSS animations and external JavaScript libraries.
 " link="https://amirzukhair.github.io/website-surf/" divider/>
+  <Example  src="/images/mobzik.png" title="Playside" subTitle1="PlaySide is a catalog of online applications with handy rating and search system."  subTitle2="To enhance PlaySide's website visits, We created new design and frameworks for their platform." link="https://playside.ru/" divider/>
   <Example   src="/images/td-ural.png" title="TD URAL" subTitle1="BUILDING MATERIALS - WEBSITE" subTitle2="This site was created and integrated with CMS so that the client could add products and change the content of the site through the admin panel.
 " link="https://tdural.com/" />
   </div>

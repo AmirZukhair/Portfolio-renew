@@ -5,13 +5,14 @@ function Example(props) {
     return (
 <div>
 <Container maxWidth="lg">
-<Card sx={{ marginY: {xs: 5, md: 10}, background: "transparent", boxShadow: "none"}}>
-        
-     <Box  sx={{ paddingBottom: "20px", display: "flex", justifyContent: {xs: "flex-end", sm: "space-between"} , alignItems: "flex-end", flexWrap: "wrap"}}>
-        <CardContent >
-        <Typography gutterBottom variant="h3" color="secondary.main" component="div" sx={{fontWeight: "700"}}>
+
+<Card sx={{ marginY: {xs: 5, md: 10}, background: "transparent", boxShadow: "none", display: "flex", flexDirection: "column"}}>
+    <Typography gutterBottom variant="h3" color="secondary.main" component="div" sx={{fontWeight: "700"}}>
         {props.title}
-        </Typography>
+    </Typography>
+     <Box order={{xs: 3, md: 2}}  sx={{ paddingBottom: "20px", display: "flex", justifyContent: {xs: "flex-end", sm: "space-between"} , alignItems: "center", flexWrap: "wrap"}}>
+        <CardContent sx={{padding: 0, paddingBottom: {xs: 2, md: 0} }} >
+
         <Typography variant="body2" color="secondary.main"  sx={{fontWeight: "500"}}>
         {props.subTitle1}
         </Typography>
@@ -32,19 +33,21 @@ function Example(props) {
             View project
         </Link>
       </CardActions>
-       
+
      </Box>
 
-       
-       
-      
-        <CardMedia
-            component="img"
-            
-            image={props.src}
-            alt="mobile games website"
-            
-        />
+
+
+      <Box order={{xs: 2, md: 3}} sx={{ paddingBottom: {xs: 5, md: 0} }}>
+          <CardMedia
+              component="img"
+
+              image={props.src}
+              alt="mobile games website"
+
+          />
+      </Box>
+
     </Card>
     </Container>
 
