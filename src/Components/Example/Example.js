@@ -23,12 +23,12 @@ function Example(props) {
 
        <CardActions sx={{ display: "flex"}}>
         <Link href={props.link} underline="none" target="_blank" variant='button'
-              sx={{border:" 2px solid #F20F0F",
+              sx={{border:" 2px solid #fbddcd",
                    padding: "14px 20px",
                    borderRadius: "32px",
                    transition: "color .3s cubic-bezier(.47, 0, .745, .715), background-color .3s cubic-bezier(.47, 0, .745, .715)",
-                   color: "#F20F0F",
-                   "&:hover": {color: "#0D0D0D", backgroundColor: "#F20F0F"}}}>
+                   color: "secondary.secondary",
+                   "&:hover": {color: "#0D0D0D", backgroundColor: "secondary.secondary"}}}>
             View project
         </Link>
       </CardActions>

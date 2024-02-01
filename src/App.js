@@ -21,8 +21,8 @@ ReactGA.initialize('G-5S1DRMNP03')
          },
          secondary: {
              main: '#BFBFBF',
-             secondary: '#F20F0F',
-             dark: '#A60505',
+             secondary: '#fbddcd',
+             dark: '#f2d1bf',
          },
      },
  })
