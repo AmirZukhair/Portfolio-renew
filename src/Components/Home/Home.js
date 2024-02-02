@@ -67,8 +67,9 @@ web developer.
            component="img"
            image="/images/author.jpg"
            alt="author"
+           width="568"
 
-           sx={{objectFit:"contain"}}
+           sx={{objectFit:"contain", height: {xs: 'auto', md: '757px'} }}
        />
 
      </Grid>
