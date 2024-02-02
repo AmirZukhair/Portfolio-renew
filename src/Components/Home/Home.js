@@ -42,7 +42,7 @@ function Home() {
   return (
     <div>
        <Container maxWidth="lg" >
-   <StyledGrid container   spacing={2} sx={{marginTop: 10, justifyContent: 'center'}}>
+   <StyledGrid container   spacing={2} sx={{justifyContent: 'center', minHeight: '100vh', alignItems: 'center'}}>
 
   <Grid item md={6} sx={{alignItems: 'center', display: 'flex'}} justifyContent="center" order={{ xs: 3, md: 2, }}>
     <div>
@@ -62,14 +62,11 @@ web developer.
 
   </Grid>
 
-     <Grid item md={6} justifyContent="center" order={{ xs: 2, md: 3, }} sx={{  minHeight: {xs: '458px',md:'757px'}}}>
+     <Grid item md={6} justifyContent="center" order={{ xs: 2, md: 3, }}>
        <CardMedia
            component="img"
            image="/images/author.jpg"
            alt="author"
-           width="568"
-           loading="lazy"
-           sx={{objectFit:"contain", minHeight: {xs: '458px', md: '757px'} }}
        />
 
      </Grid>
