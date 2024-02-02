@@ -45,7 +45,7 @@ function Example(props) {
       <Box order={{xs: 2, md: 3}} sx={{ paddingBottom: {xs: 5, md: 0} }}>
           <CardMedia
               component="img"
-
+              loading="lazy"
               image={props.src}
               alt="mobile games website"
 

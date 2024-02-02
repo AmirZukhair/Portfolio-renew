@@ -68,7 +68,7 @@ web developer.
            image="/images/author.jpg"
            alt="author"
            width="568"
-
+           loading="lazy"
            sx={{objectFit:"contain", minHeight: {xs: '458px', md: '757px'} }}
        />
 
