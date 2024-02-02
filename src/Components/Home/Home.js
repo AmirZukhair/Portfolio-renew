@@ -62,14 +62,14 @@ web developer.
 
   </Grid>
 
-     <Grid item md={6} justifyContent="center" order={{ xs: 2, md: 3, }} sx={{  height: {xs: '458px',md:'757px'}, width: {xs: '343px',md: "568px"} }}>
+     <Grid item md={6} justifyContent="center" order={{ xs: 2, md: 3, }} sx={{  minHeight: {xs: '458px',md:'757px'}}}>
        <CardMedia
            component="img"
            image="/images/author.jpg"
            alt="author"
            width="568"
 
-           sx={{objectFit:"contain", height: {xs: '458px', md: '757px'} }}
+           sx={{objectFit:"contain", minHeight: {xs: '458px', md: '757px'} }}
        />
 
      </Grid>
